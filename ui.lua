@@ -26,8 +26,7 @@ local Config = {
     ConfigRoot = "thub/configs",
     KeyCache = "thub/key.txt",
     DefaultAssets = {
-        logo = "https://raw.githubusercontent.com/2407caa6-cb07-4a8b-a36f-4f72d3344d13/f3d7678a-87e0-44fb-b9c3-11d8a4403e11/main/logoo.png",
-        logo_halloween = "https://raw.githubusercontent.com/xDTaraZz/Roblox-Scripts/main/logo_halloween.png",
+        logo = "https://raw.githubusercontent.com/2407caa6-cb07-4a8b-a36f-4f72d3344d13/f3d7678a-87e0-44fb-b9c3-11d8a4403e11/main/logo.png"
     },
     SeasonTheme = "Halloween",
     FontDir = "thub/fonts",
@@ -6300,7 +6299,7 @@ do
     Config.SeasonTheme = nil          -- không ép theme theo mùa nữa
     -- giữ nguyên logo của bạn (ảnh này sẽ hiện ở topbar và màn loading)
     Config.DefaultAssets = {
-        logo = "https://raw.githubusercontent.com/2407caa6-cb07-4a8b-a36f-4f72d3344d13/f3d7678a-87e0-44fb-b9c3-11d8a4403e11/main/logoo.png",
+        logo = "https://raw.githubusercontent.com/2407caa6-cb07-4a8b-a36f-4f72d3344d13/f3d7678a-87e0-44fb-b9c3-11d8a4403e11/main/logo.png",
     }
     -- giữ nguyên title gốc: chữ nhiều màu, font Luckiest Guy, cỡ 26
     Config.TitleColors = { "Accent", "Coin", "Good", "Blue" }
